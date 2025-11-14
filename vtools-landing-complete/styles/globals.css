@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --brand-navy:#0B1F3B; --black:#000000; --white:#FFFFFF; }
+
+html, body { @apply bg-white text-black font-sans; }
+a{ @apply underline decoration-brand-navy; }
+.btn{ @apply inline-flex items-center justify-center rounded-xl px-4 py-2 bg-[color:var(--brand-navy)] text-white font-medium hover:opacity-90 transition; }
+.btn-secondary{ @apply bg-white text-[color:var(--brand-navy)] border border-[color:var(--brand-navy)]; }
+.card{ @apply rounded-xl border border-black/10 shadow-subtle p-6 bg-white; }

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vtools.store/sitemap.xml
