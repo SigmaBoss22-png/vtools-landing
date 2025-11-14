@@ -1,6 +1,10 @@
 {
   "name": "vtools-landing",
   "version": "1.0.0",
+  "engines": {
+  "node": "18.x"
+},
+
   "private": true,
   "scripts": {
     "dev": "next dev",
